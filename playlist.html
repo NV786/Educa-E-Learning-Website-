@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" href="images/favicon.ico">
+   <title>Video Playlist</title>
+
+   <!-- Font Awesome CDN link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- Custom CSS file link -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   <section class="flex">
+      <a href="index.html" class="logo">Educa.</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="Search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="Profile Picture">
+         <h3 class="name">Shaikh Anas</h3>
+         <p class="role">Student</p>
+         <a href="profile.html" class="btn">View Profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">Login</a>
+            <a href="register.html" class="option-btn">Register</a>
+         </div>
+      </div>
+   </section>
+</header>
+
+<div class="side-bar">
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/pic-1.jpg" class="image" alt="Profile Picture">
+      <h3 class="name">Shaikh Anas</h3>
+      <p class="role">Student</p>
+      <a href="profile.html" class="btn">View Profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+   </nav>
+</div>
+
+<section class="playlist-details">
+   <h1 class="heading">Playlist Details</h1>
+
+   <div class="row">
+      <div class="column">
+   
+         <div class="thumb">
+            <img src="images/baby.jpeg" alt="Playlist Thumbnail">
+         </div>
+      </div>
+      <div class="column">
+         <div class="tutor">
+            <img src="images/pic-2.jpg" alt="Tutor Picture">
+            <div>
+               <h3>Niyam Verma</h3>
+            </div>
+         </div>
+   
+         <div class="details">
+            <h3>For Small Ages</h3>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum minus reiciendis, error sunt veritatis exercitationem deserunt velit doloribus itaque voluptate.</p> -->
+            <a href="teacher_profile.html" class="inline-btn">View Profile</a>
+         </div>
+      </div>
+   </div>
+</section>
+
+<section class="playlist-videos">
+   <h1 class="heading">Playlist Videos</h1>
+
+   <div class="box-container">
+      <a class="box" href="watch-video.html">
+         <i class="fas fa-play"></i>
+         <img src="images/poem.png" alt="Video Thumbnail">
+         <h3>Poem</h3>
+      </a>
+
+   </div>
+</section>
+
+
+<!-- Custom JS file link -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
